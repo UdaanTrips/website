@@ -13,6 +13,12 @@ body {
 .text-primary {
   color: #fed136;
 }
+.text-secondary {
+  color: #333333;
+}
+.responsibility{
+  color: #ffffff;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
@@ -684,6 +690,11 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
+}
+
+.portfolio-modal .modal-content ul {
+  text-align: justify;
+  font-size: 19px;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
