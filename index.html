@@ -31,6 +31,13 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
     <![endif]-->
 
+    <style>
+        @media (max-width: 768px) {
+            .navbar-brand img {
+            height: 30px !important;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top" class="index">
@@ -43,7 +50,20 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top" style="font-size:40px">Udaan Trips</a>
+                <!-- <a class="navbar-brand page-scroll" href="#page-top" style="font-size:40px">Udaan Trips</a> -->
+                <a class="navbar-brand page-scroll" href="#page-top" 
+                style="display:flex; align-items:center;">
+                    <img 
+                        src="./img/logo_2025.jpeg"
+                        alt="logo"
+                        style="
+                            height:40px;
+                            width:auto;
+                            object-fit:contain;
+                            display:block;
+                        "
+                    >
+                </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
